@@ -2048,4 +2048,6 @@ a.button.wc-backward {
     opacity: 0.8;
   }
 }
-
+.modal{
+  background: rgba(0, 0, 0, 0.360);
+}

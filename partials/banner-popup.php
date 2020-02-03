@@ -3,7 +3,6 @@
 <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
         <?php $args = get_post_custom( $post_id); ?>
 
-  <a href="<?php echo $args['link'][0]?>" target="_blank">
     <div class="modal" id="mostrarmodal" tabindex="-1" role="dialog">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -13,6 +12,7 @@
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
+  <a href="<?php echo $args['link'][0]?>" target="_blank">
             <div class="modal-body">
                 <img src="<?php echo get_the_post_thumbnail_url(); ?>">
             </div>

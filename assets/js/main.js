@@ -56,13 +56,17 @@ $(function () {
 });
 
 
-// $(document).ready(function () {
-//   $("#mostrarmodal").modal("show");
-// });
+$(document).ready(function () {
+  setTimeout(function () {
+    $("#mostrarmodal").modal("show").fadeIn(2000);
+  }, 4000);
+});
 
 
+//*Para cerrar menus en moviles
 $('.nav-item').click(function () {
   responsiveBtnIcon.classList.toggle("--is-open");
   navMenu.classList.toggle("--is-open");
 });
+
 
