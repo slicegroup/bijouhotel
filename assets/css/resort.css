@@ -1,0 +1,2051 @@
+input[type="date"], input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], select, textarea, .woocommerce .quantity input.qty {
+	border-width: 0 0 2px 0 !important;
+	box-shadow: unset;
+	resize: none;
+}
+
+.products-slider{
+      position: relative;
+}
+
+/* booking */
+.booking-section {
+  display: flex!important;
+  justify-content: center!important;
+  position: absolute;
+  width: 100%;
+
+    bottom: 7rem;
+}
+.booking {
+  width: 85%;
+  padding: 3rem 2rem;
+  box-shadow: 1px 1px 0px #000;
+ background-color: rgba(29, 26, 29, 0.85);
+  box-shadow:3px 2px 10px 0px #5858582E;
+   /* border-radius: .5rem; */
+}
+
+	*:focus { outline: none; } 
+
+.flex-booking {
+  display: flex;
+  align-items: flex-end;
+}
+.input-date input {
+    padding: .5rem 1rem;
+    border: 1px solid #C2C2C2;
+    border-radius: .5rem;
+    display: flex!important;
+    width: 100%;
+    align-items: center!important;
+    justify-content: space-between!important;
+    margin-bottom: 0;
+        background: rgba(127, 51, 139, 0.8)!important;
+    border: none;
+		color: #ffff!important;
+		font-family: 'Gilroy';
+  font-weight: bold;
+}
+#hotel-booking-cart table th, #hotel-booking-payment table th {
+    color: #2a2a2a;
+    padding: 10px 17px;
+	font-weight: bold;}
+.input-date i {
+  border-left: 1px solid #C2C2C2;
+  padding-left: 1rem;
+}
+
+label{
+  font-size: 15px;
+    color: #fff;
+
+				font-family: 'Gilroy';
+  font-weight: bold;
+}
+
+.btn-general {
+ padding: 1.7rem 1.5rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+    font-weight: 600;
+    transition: .3s;
+    background: #7f338b;
+    color: #fff!important;
+    font-size: 15px;
+    width: fit-content;
+    cursor: pointer;
+}
+.btn-general:hover {
+  transition: .3s;
+  background-color: black!important;
+  color: #7f338b;
+}
+
+span{
+	color:#fff;
+	font-weight: 600;
+	transition: .5s;
+	font-family:'Gilroy';
+}
+
+li a span:hover{
+	color:#7f338b;
+	transition: .5s;
+}
+
+a:hover{text-decoration: none;
+		color: #7f338b;
+	transition: .5s;}
+
+.list-room{
+	text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.room-serv{
+  background: url('../img/AREAS-091.jpg');
+  background-attachment: fixed;
+  height: 50vh;
+}
+
+.room-event{
+  background: url(../img/salon1.jpg);
+  background-attachment: fixed;
+  height: 50vh;
+  width: 100%;
+  background-repeat: round;
+  background-position: unset;
+}
+
+.room-photo {
+    width: 89%;
+}
+
+br{
+  display: none;
+}
+
+.text-event p{
+  text-align: justify;
+}
+
+.serv{
+  padding-top:100px; 
+  padding-bottom:100px;
+}
+
+.hello{
+  padding:50px; margin-top:-100px; background: #7f338b; background-repeat:no-repeat; background-position:center top; filter: drop-shadow(15px 20px 7px rgba(0,0,0,.3));
+}
+
+.sec-ro{
+
+    padding-bottom: 7%;
+}
+
+tr{
+    font-family: 'Gilroy';
+    font-size: 20px;
+}
+
+
+.img-sal img {
+  width: 100%!important;
+}
+
+.salones{
+      padding-bottom: 190px!important;
+      padding-top: 190px!important;
+    padding-left: 50px!important;
+    padding-right: 50px!important;
+}
+
+
+.back{
+  background: black!important
+}
+
+.log img{
+      height: 95px;
+    width: 281px;
+    object-fit: contain;
+        margin-top: -10%;
+}
+
+tbody{
+	font-weight: bold;
+}
+
+.checkout-page h2{
+	font-size:35px;
+}
+
+.parrafo{
+  overflow: hidden;
+}
+
+.salon:hover .parrafo{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    background: rgba(127, 51, 139, 0.65)!important;
+    transition: .5s;
+}
+
+
+.salon{
+    position: relative;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.gale-div img{
+  width: 100%!important;
+}
+
+.gale-div{
+  width: 100%;
+padding-bottom: 6%;}
+
+.galeria{
+      padding-bottom: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.hb-form-table{
+  display: flex;
+}
+.modal-body .hb-form-table{
+  display: block;
+}
+
+
+  .booking .container form {
+    display: flex;
+    align-items: flex-end;
+
+
+}
+
+.hb-submit{
+    font-size: 1rem;
+    border-radius: .5rem;
+    font-weight: 600;
+    transition: .3s;
+    background: #7f338b;
+    color: #fff!important;
+    font-size: 15px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.hb-submit:hover {
+    transition: .3s;
+}
+
+.hotel-booking-search button{
+  border: none!important;
+}
+
+html {
+  scroll-behavior: smooth;
+} 
+
+a.button, a.tp-button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 5%;
+}
+.hotel-booking-search button, .hotel-booking-search input, .hotel-booking-search select, .hotel-booking-search textarea{
+  height: 30px;
+}
+
+.hotel-booking-search button, .hotel-booking-search input, .hotel-booking-search select, .hotel-booking-search textarea{
+  font-family: 'Gilroy';
+}
+
+.hotel-booking-search{
+  padding: 0;
+}
+
+input[type="date"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, select:focus, textarea:focus {
+    background-color: #fff!important;
+    border-color: #81378d!important;
+    color: #7f338b;
+}
+
+.hb-form-field{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.frm_style_estilos-formidable.with_frm_style .form-field input:not([type=file]):focus, .frm_style_estilos-formidable.with_frm_style select:focus, .frm_style_estilos-formidable.with_frm_style textarea:focus, .frm_style_estilos-formidable.with_frm_style .frm_focus_field input[type=text], .frm_style_estilos-formidable.with_frm_style .frm_focus_field input[type=password], .frm_style_estilos-formidable.with_frm_style .frm_focus_field input[type=email], .frm_style_estilos-formidable.with_frm_style .frm_focus_field input[type=number], .frm_style_estilos-formidable.with_frm_style .frm_focus_field input[type=url], .frm_style_estilos-formidable.with_frm_style .frm_focus_field input[type=tel], .frm_style_estilos-formidable.with_frm_style .frm_focus_field input[type=search], .frm_form_fields_active_style, .frm_style_estilos-formidable.with_frm_style .frm_focus_field .frm-card-element.StripeElement, .frm_style_estilos-formidable.with_frm_style .chosen-container-single.chosen-container-active .chosen-single, .frm_style_estilos-formidable.with_frm_style .chosen-container-active .chosen-choices{
+  box-shadow: none;
+}
+
+
+/*--------------------TEMA CAMBIAR-------*/
+
+#sidebar{
+  display: none;
+}
+
+.product_content h1{
+  color: black;
+      font-size: 35px;
+}
+
+.flex-control-thumbs li img {
+    width: auto;
+    height: 5rem;
+    object-fit: scale-down;
+}
+
+.flex-control-thumbs {
+    padding-top: 2rem;
+    display: flex;
+    list-style-type: none;
+    width: auto;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    cursor: pointer;
+    overflow-x: scroll;
+}
+
+
+   
+	.product-two {
+    padding-top: 100px;
+    margin-bottom: 500px;
+}
+
+.input-text.qty.text{
+  display: none;
+}
+
+button.single_add_to_cart_button.button.alt{
+  display: none!important;
+}
+
+.product_meta{
+  display: none;
+}
+
+.box-btn{
+  margin-top: 5%;
+}
+
+.modal-dialog{
+  padding-top: 100px;
+}
+
+.modal-body .booking-section{
+  position: inherit;
+      bottom: 0rem;
+          background: black;
+          box-shadow: none;
+}
+
+.modal-body .booking .container form{
+  display: block!important;
+   
+}
+
+.modal-body .hb-form-table{
+  margin-top: -2%;
+}
+
+.modal-body #ui-datepicker-div {
+    top: 33%!important;
+}
+
+.modal-body label {
+    margin-bottom: 3%;
+    font-size: 17px;
+}
+
+.modal-title {
+    line-height: 1.5;
+    margin-top: 1%;
+}
+
+.modal-body .hb-submit{
+  margin-left: 4%;
+}
+
+.modal-body .hb-form-table {
+    /* display: block; */
+    width: 30%;
+}
+.modal-body .hb-form-field {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+        margin: 2.7rem;
+}
+
+.modal-body .hb-form-field-input{
+  margin-left: 1%;
+}
+
+.modal-body{
+      background: black;
+}
+
+.modal-body .booking{
+     background-color: rgb(0, 0, 0);
+}
+
+.modal-body .booking{
+  box-shadow: none;
+}
+
+.modal-header button span{
+  color: black;
+  font-size: 38px;
+}
+
+.button-stroke a.button, .button-stroke a.tp-button, .button-stroke button, .button-stroke input[type="submit"], .button-stroke input[type="reset"], .button-stroke input[type="button"] {
+    border-width: 0;
+}
+
+.hotel-booking-search button, .hotel-booking-search input, .hotel-booking-search select, .hotel-booking-search textarea {
+    font-family: 'Gilroy';
+
+    color: black;
+    font-weight: bold;
+}
+
+option{
+   color:black!important;
+   font-weight: bold!important;
+  }
+
+.hb_input_field:after {
+ 
+    top: 9px;
+}
+
+
+select {
+  background: #fff;}
+
+.ui-datepicker-title span{
+  color: black;
+}
+ #ui-datepicker-div {
+       top: 541.552px;
+}
+
+#exampleModal  #ui-datepicker-div{
+  top: 282.552px!important;
+}
+
+.hb-form-field label{
+      margin-bottom: 5%;
+}
+.ui-datepicker.ui-widget .ui-datepicker-calendar .ui-state-default:hover {
+    color: black;
+    background: #81348e;
+}
+
+
+.multi_step_form {
+  /* background: #f6f9fb; */
+  display: block;
+  overflow: hidden;
+}
+.multi_step_form #msform {
+  text-align: center;
+  position: relative;
+  padding-top: 50px;
+  /* min-height: 60rem; */
+  /* max-width: 810px; */
+  margin: 0 auto;
+  /* background: #ffffff; */
+  z-index: 1;
+}
+.multi_step_form #msform .tittle {
+  text-align: center;
+  padding-bottom: 55px;
+}
+.multi_step_form #msform .tittle h2 {
+  font: 500 24px/35px "Roboto", sans-serif;
+  color: #3f4553;
+  padding-bottom: 5px;
+}
+.multi_step_form #msform .tittle p {
+  font: 400 16px/28px "Roboto", sans-serif;
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset {
+  border: 0;
+  /* padding: 0 10rem; */
+  position: relative;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+.multi_step_form #msform fieldset:not(:first-of-type) {
+  display: none;
+}
+.multi_step_form #msform fieldset h3 {
+  font: 500 18px/35px "Roboto", sans-serif;
+  color: #3f4553;
+}
+.multi_step_form #msform fieldset h6 {
+  font: 400 15px/28px "Roboto", sans-serif;
+  color: #5f6771;
+  padding-bottom: 30px;
+}
+.multi_step_form #msform fieldset .intl-tel-input {
+  display: block;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  outline: none;
+}
+.multi_step_form #msform fieldset .intl-tel-input .flag-container .selected-flag {
+  padding: 0 20px;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  outline: none;
+  width: 65px;
+}
+.multi_step_form #msform fieldset .intl-tel-input .flag-container .selected-flag .iti-arrow {
+  border: 0;
+}
+.multi_step_form #msform fieldset .intl-tel-input .flag-container .selected-flag .iti-arrow:after {
+  content: "\f35f";
+  position: absolute;
+  top: 0;
+  right: 0;
+  font: normal normal normal 24px/7px Ionicons;
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset #phone {
+  padding-left: 80px;
+}
+.multi_step_form #msform fieldset .form-group {
+  padding: 0 10px;
+}
+.multi_step_form #msform fieldset .fg_2, .multi_step_form #msform fieldset .fg_3 {
+  padding-top: 10px;
+  display: block;
+  overflow: hidden;
+}
+.multi_step_form #msform fieldset .fg_3 {
+  padding-bottom: 70px;
+}
+.multi_step_form #msform fieldset .form-control, .multi_step_form #msform fieldset .product_select, .form-group textarea {
+  /* border-radius: 3px;
+  border: 1px solid #d8e1e7;
+  padding: 0 20px;
+  height: auto;
+  font: 400 15px/48px "Roboto", sans-serif;
+  color: #5f6771;
+  width: 100%; */
+  box-shadow: none;
+  outline: none;
+  background: transparent;
+  padding: .5rem 1rem;
+  border: 1px solid #c2c2c2;
+  border-radius: .5rem;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  color: #5f6771;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.form-group textarea{
+  height: 8rem;
+}
+.multi_step_form #msform fieldset .form-control.placeholder, .multi_step_form #msform fieldset .product_select.placeholder {
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset .form-control:-moz-placeholder, .multi_step_form #msform fieldset .product_select:-moz-placeholder {
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset .form-control::-moz-placeholder, .multi_step_form #msform fieldset .product_select::-moz-placeholder {
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset .form-control::-webkit-input-placeholder, .multi_step_form #msform fieldset .product_select::-webkit-input-placeholder {
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset .form-control:hover, .multi_step_form #msform fieldset .form-control:focus, .multi_step_form #msform fieldset .product_select:hover, .multi_step_form #msform fieldset .product_select:focus {
+  border-color: #f35314;
+}
+.multi_step_form #msform fieldset .form-control:focus.placeholder, .multi_step_form #msform fieldset .product_select:focus.placeholder {
+  color: transparent;
+}
+.multi_step_form #msform fieldset .form-control:focus:-moz-placeholder, .multi_step_form #msform fieldset .product_select:focus:-moz-placeholder {
+  color: transparent;
+}
+.multi_step_form #msform fieldset .form-control:focus::-moz-placeholder, .multi_step_form #msform fieldset .product_select:focus::-moz-placeholder {
+  color: transparent;
+}
+.multi_step_form #msform fieldset .form-control:focus::-webkit-input-placeholder, .multi_step_form #msform fieldset .product_select:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.multi_step_form #msform fieldset .product_select:after {
+  display: none;
+}
+.multi_step_form #msform fieldset .product_select:before {
+  content: "\f35f";
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font: normal normal normal 24px/48px Ionicons;
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset .product_select .list {
+  width: 100%;
+}
+.multi_step_form #msform fieldset .done_text {
+  padding-top: 40px;
+}
+.multi_step_form #msform fieldset .done_text .don_icon {
+  height: 36px;
+  width: 36px;
+  line-height: 36px;
+  font-size: 22px;
+  margin-bottom: 10px;
+  background: #f35314;
+  display: inline-block;
+  border-radius: 50%;
+  color: #ffffff;
+  text-align: center;
+}
+.multi_step_form #msform fieldset .done_text h6 {
+  line-height: 23px;
+}
+.multi_step_form #msform fieldset .code_group {
+  margin-bottom: 60px;
+}
+.multi_step_form #msform fieldset .code_group .form-control {
+  border: 0;
+  border-bottom: 1px solid #a1a7ac;
+  border-radius: 0;
+  display: inline-block;
+  width: 30px;
+  font-size: 30px;
+  color: #5f6771;
+  padding: 0;
+  margin-right: 7px;
+  text-align: center;
+  line-height: 1;
+}
+.multi_step_form #msform fieldset .passport {
+  margin-top: -10px;
+  padding-bottom: 30px;
+  position: relative;
+}
+.multi_step_form #msform fieldset .passport .don_icon {
+  height: 36px;
+  width: 36px;
+  line-height: 36px;
+  font-size: 22px;
+  position: absolute;
+  top: 4px;
+  right: 0;
+  background: #f35314;
+  display: inline-block;
+  border-radius: 50%;
+  color: #ffffff;
+  text-align: center;
+}
+.multi_step_form #msform fieldset .passport h4 {
+  font: 500 15px/23px "Roboto", sans-serif;
+  color: #5f6771;
+  padding: 0;
+}
+.multi_step_form #msform fieldset .input-group {
+  padding-bottom: 40px;
+}
+.multi_step_form #msform fieldset .input-group .custom-file {
+  width: 100%;
+  height: auto;
+}
+.multi_step_form #msform fieldset .input-group .custom-file .custom-file-label {
+  width: 168px;
+  border-radius: 5px;
+  cursor: pointer;
+  font: 700 14px/40px "Roboto", sans-serif;
+  border: 1px solid #99a2a8;
+  text-align: center;
+  transition: all 300ms linear 0s;
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset .input-group .custom-file .custom-file-label i {
+  font-size: 20px;
+  padding-right: 10px;
+}
+.multi_step_form #msform fieldset .input-group .custom-file .custom-file-label:hover, .multi_step_form #msform fieldset .input-group .custom-file .custom-file-label:focus {
+  background: #f35314;
+  border-color: #f35314;
+  color: #fff;
+}
+.multi_step_form #msform fieldset .input-group .custom-file input {
+  display: none;
+}
+.multi_step_form #msform fieldset .file_added {
+  text-align: left;
+  padding-left: 190px;
+  padding-bottom: 60px;
+}
+.multi_step_form #msform fieldset .file_added li {
+  font: 400 15px/28px "Roboto", sans-serif;
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset .file_added li a {
+  color: #f35314;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+  padding-left: 15px;
+}
+.multi_step_form #msform fieldset .file_added li a i {
+  font-size: 22px;
+  padding-right: 8px;
+  position: absolute;
+  left: 0;
+  transform: rotate(20deg);
+}
+.multi_step_form #msform #progressbar {
+  margin-bottom: 0;
+  overflow: hidden;
+}
+.multi_step_form #msform #progressbar li {
+  list-style-type: none;
+  color: #99a2a8;
+  font-size: 9px;
+  width: calc(100%/3);
+  float: left;
+  position: relative;
+  font: 500 13px/1 "Roboto", sans-serif;
+}
+.multi_step_form #msform #progressbar li:nth-child(2):before {
+  content: "2";
+}
+.multi_step_form #msform #progressbar li:nth-child(3):before {
+  content: "3";
+}
+.multi_step_form #msform #progressbar li:before {
+  content: "1";
+  font: 500 13px/1 "Roboto", sans-serif;
+  font-size: 2rem;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  display: block;
+  background: #eaf0f4;
+  border-radius: .5rem;
+  margin: 0 auto 10px auto;
+}
+.multi_step_form #msform #progressbar li:after {
+  content: '';
+  width: 100%;
+  height: 10px;
+  background: #eaf0f4;
+  position: absolute;
+  left: -50%;
+  top: 21px;
+  z-index: -1;
+}
+.multi_step_form #msform #progressbar li:last-child:after {
+  width: 150%;
+}
+.multi_step_form #msform #progressbar li.active {
+  color: #f35314;
+}
+.multi_step_form #msform #progressbar li.active:before, .multi_step_form #msform #progressbar li.active:after {
+  background: #f35314;
+  color: white;
+}
+
+.multi_step_form #msform .action-button:hover, .multi_step_form #msform .action-button:focus {
+  background: #405867;
+  border-color: #405867;
+}
+
+.multi_step_form #msform .previous_button {
+  background: transparent;
+  color: #99a2a8;
+  border-color: #99a2a8;
+}
+
+
+.multi_step_form .title-service {
+  margin: 2rem 0;
+}
+
+/* FORM EVENTS */
+
+input[type=checkbox] + label {
+  display: flex;
+  align-items: center;
+  margin: 0.2em;
+  cursor: pointer;
+  padding: 0.2em;
+ }
+ 
+
+ .form-flex input[type=checkbox] + label:before {
+  content: "\2714";
+  border: 0.1em solid #ccc;
+  border-radius: 0.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center; width: 2rem;
+  height: 2rem;
+  /* padding-left: 0.2em;
+  padding-bottom: 0.3em; */
+  margin-right: 0.2em;
+  vertical-align: bottom;
+  color: transparent;
+  transition: .2s;
+  margin-right: 15px;
+ }
+ 
+ .form-flex input[type=checkbox] + label:active:before {
+  transform: scale(0);
+ }
+ 
+ .form-flex input[type=checkbox]:checked + label:before {
+background-color: #7f338b;
+    border-color: #7f338b;
+  color: #fff;
+ }
+ 
+ .form-flex input[type=checkbox]:disabled + label:before {
+  transform: scale(1);
+  border-color: #aaa;
+ }
+ 
+ .form-flex input[type=checkbox]:checked:disabled + label:before {
+  transform: scale(1);
+  background-color: #bfb;
+  border-color: #bfb;
+ }
+ 
+ .form-flex {
+   display: flex;
+     justify-content: center;
+ }
+ 
+ .input-check input[type=checkbox]:checked + label img {
+   filter: grayscale(0); 
+   opacity: 1;
+  }
+ 
+  .input-check input[type=checkbox] + label img {
+   filter: grayscale(50);
+   opacity: .4;
+  }
+ 
+  .input-check label {
+   display: flex;
+   flex-direction: column;
+  }
+  .input-check img {
+   width: 5rem;
+  }
+
+  .previous_button {
+    margin-top: 2rem;
+    margin-right: 2rem;
+  }
+
+  .conditones {
+    margin-top: 2rem;
+  }
+
+  .form-group label{
+    color: black;
+  }
+
+  .form-group input{
+    font-size: 20px;
+  }
+
+  .multi_step_form {
+  /* background: #f6f9fb; */
+  display: block;
+  overflow: hidden;
+}
+.multi_step_form #msform {
+  text-align: center;
+  position: relative;
+  padding-top: 50px;
+  /* min-height: 60rem; */
+  /* max-width: 810px; */
+  margin: 0 auto;
+  /* background: #ffffff; */
+  z-index: 1;
+}
+.multi_step_form #msform .tittle {
+  text-align: center;
+  padding-bottom: 55px;
+}
+.multi_step_form #msform .tittle h2 {
+  font: 500 24px/35px "Roboto", sans-serif;
+  color: #3f4553;
+  padding-bottom: 5px;
+}
+.multi_step_form #msform .tittle p {
+  font: 400 16px/28px "Roboto", sans-serif;
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset {
+  border: 0;
+  /* padding: 0 10rem; */
+  position: relative;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+.multi_step_form #msform fieldset:not(:first-of-type) {
+  display: none;
+}
+.multi_step_form #msform fieldset h3 {
+  font: 500 18px/35px "Roboto", sans-serif;
+  color: #3f4553;
+}
+.multi_step_form #msform fieldset h6 {
+  font: 400 15px/28px "Roboto", sans-serif;
+  color: #5f6771;
+  padding-bottom: 30px;
+}
+.multi_step_form #msform fieldset .intl-tel-input {
+  display: block;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  outline: none;
+}
+.multi_step_form #msform fieldset .intl-tel-input .flag-container .selected-flag {
+  padding: 0 20px;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  outline: none;
+  width: 65px;
+}
+.multi_step_form #msform fieldset .intl-tel-input .flag-container .selected-flag .iti-arrow {
+  border: 0;
+}
+.multi_step_form #msform fieldset .intl-tel-input .flag-container .selected-flag .iti-arrow:after {
+  content: "\f35f";
+  position: absolute;
+  top: 0;
+  right: 0;
+  font: normal normal normal 24px/7px Ionicons;
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset #phone {
+  padding-left: 80px;
+}
+.multi_step_form #msform fieldset .form-group {
+  padding: 0 10px;
+}
+.multi_step_form #msform fieldset .fg_2, .multi_step_form #msform fieldset .fg_3 {
+  padding-top: 10px;
+  display: block;
+  overflow: hidden;
+}
+.multi_step_form #msform fieldset .fg_3 {
+  padding-bottom: 70px;
+}
+.multi_step_form #msform fieldset .form-control, .multi_step_form #msform fieldset .product_select, .form-group textarea {
+  /* border-radius: 3px;
+  border: 1px solid #d8e1e7;
+  padding: 0 20px;
+  height: auto;
+  font: 400 15px/48px "Roboto", sans-serif;
+  color: #5f6771;
+  width: 100%; */
+  box-shadow: none;
+  outline: none;
+  background: transparent;
+  padding: .5rem 1rem;
+  border: 1px solid #c2c2c2;
+  border-radius: .5rem;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  color: #5f6771;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.form-group textarea{
+  height: 8rem;
+}
+.multi_step_form #msform fieldset .form-control.placeholder, .multi_step_form #msform fieldset .product_select.placeholder {
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset .form-control:-moz-placeholder, .multi_step_form #msform fieldset .product_select:-moz-placeholder {
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset .form-control::-moz-placeholder, .multi_step_form #msform fieldset .product_select::-moz-placeholder {
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset .form-control::-webkit-input-placeholder, .multi_step_form #msform fieldset .product_select::-webkit-input-placeholder {
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset .form-control:hover, .multi_step_form #msform fieldset .form-control:focus, .multi_step_form #msform fieldset .product_select:hover, .multi_step_form #msform fieldset .product_select:focus {
+  border-color: #f35314;
+}
+.multi_step_form #msform fieldset .form-control:focus.placeholder, .multi_step_form #msform fieldset .product_select:focus.placeholder {
+  color: transparent;
+}
+.multi_step_form #msform fieldset .form-control:focus:-moz-placeholder, .multi_step_form #msform fieldset .product_select:focus:-moz-placeholder {
+  color: transparent;
+}
+.multi_step_form #msform fieldset .form-control:focus::-moz-placeholder, .multi_step_form #msform fieldset .product_select:focus::-moz-placeholder {
+  color: transparent;
+}
+.multi_step_form #msform fieldset .form-control:focus::-webkit-input-placeholder, .multi_step_form #msform fieldset .product_select:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.multi_step_form #msform fieldset .product_select:after {
+  display: none;
+}
+.multi_step_form #msform fieldset .product_select:before {
+  content: "\f35f";
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font: normal normal normal 24px/48px Ionicons;
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset .product_select .list {
+  width: 100%;
+}
+.multi_step_form #msform fieldset .done_text {
+  padding-top: 40px;
+}
+.multi_step_form #msform fieldset .done_text .don_icon {
+  height: 36px;
+  width: 36px;
+  line-height: 36px;
+  font-size: 22px;
+  margin-bottom: 10px;
+  background: #f35314;
+  display: inline-block;
+  border-radius: 50%;
+  color: #ffffff;
+  text-align: center;
+}
+.multi_step_form #msform fieldset .done_text h6 {
+  line-height: 23px;
+}
+.multi_step_form #msform fieldset .code_group {
+  margin-bottom: 60px;
+}
+.multi_step_form #msform fieldset .code_group .form-control {
+  border: 0;
+  border-bottom: 1px solid #a1a7ac;
+  border-radius: 0;
+  display: inline-block;
+  width: 30px;
+  font-size: 30px;
+  color: #5f6771;
+  padding: 0;
+  margin-right: 7px;
+  text-align: center;
+  line-height: 1;
+}
+.multi_step_form #msform fieldset .passport {
+  margin-top: -10px;
+  padding-bottom: 30px;
+  position: relative;
+}
+.multi_step_form #msform fieldset .passport .don_icon {
+  height: 36px;
+  width: 36px;
+  line-height: 36px;
+  font-size: 22px;
+  position: absolute;
+  top: 4px;
+  right: 0;
+  background: #f35314;
+  display: inline-block;
+  border-radius: 50%;
+  color: #ffffff;
+  text-align: center;
+}
+.multi_step_form #msform fieldset .passport h4 {
+  font: 500 15px/23px "Roboto", sans-serif;
+  color: #5f6771;
+  padding: 0;
+}
+.multi_step_form #msform fieldset .input-group {
+  padding-bottom: 40px;
+}
+.multi_step_form #msform fieldset .input-group .custom-file {
+  width: 100%;
+  height: auto;
+}
+.multi_step_form #msform fieldset .input-group .custom-file .custom-file-label {
+  width: 168px;
+  border-radius: 5px;
+  cursor: pointer;
+  font: 700 14px/40px "Roboto", sans-serif;
+  border: 1px solid #99a2a8;
+  text-align: center;
+  transition: all 300ms linear 0s;
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset .input-group .custom-file .custom-file-label i {
+  font-size: 20px;
+  padding-right: 10px;
+}
+.multi_step_form #msform fieldset .input-group .custom-file .custom-file-label:hover, .multi_step_form #msform fieldset .input-group .custom-file .custom-file-label:focus {
+  background: #f35314;
+  border-color: #f35314;
+  color: #fff;
+}
+.multi_step_form #msform fieldset .input-group .custom-file input {
+  display: none;
+}
+.multi_step_form #msform fieldset .file_added {
+  text-align: left;
+  padding-left: 190px;
+  padding-bottom: 60px;
+}
+.multi_step_form #msform fieldset .file_added li {
+  font: 400 15px/28px "Roboto", sans-serif;
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset .file_added li a {
+  color: #f35314;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+  padding-left: 15px;
+}
+.multi_step_form #msform fieldset .file_added li a i {
+  font-size: 22px;
+  padding-right: 8px;
+  position: absolute;
+  left: 0;
+  transform: rotate(20deg);
+}
+.multi_step_form #msform #progressbar {
+  margin-bottom: 0;
+  overflow: hidden;
+}
+.multi_step_form #msform #progressbar li {
+  list-style-type: none;
+  color: #99a2a8;
+  font-size: 9px;
+  width: calc(100%/3);
+  float: left;
+  position: relative;
+  font: 500 13px/1 "Roboto", sans-serif;
+}
+.multi_step_form #msform #progressbar li:nth-child(2):before {
+  content: "2";
+}
+.multi_step_form #msform #progressbar li:nth-child(3):before {
+  content: "3";
+}
+.multi_step_form #msform #progressbar li:before {
+  content: "1";
+  font: 500 13px/1 "Roboto", sans-serif;
+  font-size: 2rem;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  display: block;
+  background: #eaf0f4;
+  border-radius: .5rem;
+  margin: 0 auto 10px auto;
+}
+.multi_step_form #msform #progressbar li:after {
+  content: '';
+  width: 100%;
+  height: 10px;
+  background: #eaf0f4;
+  position: absolute;
+  left: -50%;
+  top: 21px;
+  z-index: -1;
+}
+.multi_step_form #msform #progressbar li:last-child:after {
+  width: 150%;
+}
+.multi_step_form #msform #progressbar li.active {
+  color: #f35314;
+}
+.multi_step_form #msform #progressbar li.active:before, .multi_step_form #msform #progressbar li.active:after {
+  background: #f35314;
+  color: white;
+}
+
+.multi_step_form #msform .action-button:hover, .multi_step_form #msform .action-button:focus {
+  background: #405867;
+  border-color: #405867;
+}
+
+.multi_step_form #msform .previous_button {
+  background: transparent;
+  color: #99a2a8;
+  border-color: #99a2a8;
+}
+
+
+.multi_step_form .title-service {
+  margin: 2rem 0;
+}
+
+/* FORM EVENTS */
+
+input[type=checkbox] + label {
+  display: flex;
+  align-items: center;
+  margin: 0.2em;
+  cursor: pointer;
+  padding: 0.2em;
+ }
+
+ .form-flex input[type=checkbox] + label:before {
+  content: "\2714";
+  border: 0.1em solid #ccc;
+  border-radius: 0.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center; width: 2rem;
+  height: 2rem;
+  /* padding-left: 0.2em;
+  padding-bottom: 0.3em; */
+  margin-right: 0.2em;
+  vertical-align: bottom;
+  color: transparent;
+  transition: .2s;
+  margin-right: 15px;
+ }
+
+ .form-flex input[type=checkbox] + label:active:before {
+  transform: scale(0);
+ }
+
+ .form-flex input[type=checkbox]:checked + label:before {
+  background-color:#f3581b ;
+  border-color: #f3581b;
+  color: #fff;
+ }
+
+ .form-flex input[type=checkbox]:disabled + label:before {
+  transform: scale(1);
+  border-color: #aaa;
+ }
+
+ .form-flex input[type=checkbox]:checked:disabled + label:before {
+  transform: scale(1);
+  background-color: #bfb;
+  border-color: #bfb;
+ }
+
+ .form-flex {
+   display: flex;
+     justify-content: center;
+ }
+
+ .input-check input[type=checkbox]:checked + label img {
+   filter: grayscale(0);
+   opacity: 1;
+  }
+
+  .input-check input[type=checkbox] + label img {
+   filter: grayscale(50);
+   opacity: .4;
+  }
+
+  .input-check label {
+   display: flex;
+   flex-direction: column;
+  }
+  .input-check img {
+   width: 5rem;
+  }
+
+  .previous_button {
+    margin-top: 2rem;
+    margin-right: 2rem;
+  }
+
+  .conditones {
+    margin-top: 2rem;
+  }
+
+#star-time:before {
+content:'Hora de incio';
+margin-right:.6em;
+color:#5f6771;
+}
+#end-time:before {
+content:'Hora de fin';
+margin-right:.6em;
+color:#5f6771;
+}
+
+.frm_form_field.frm_html_container.form-field h2{
+  color:black;
+      text-align: center;
+}
+.frm_fields_container{
+      display: flex!important;
+    justify-content: center!important;
+    flex-direction: column!important;
+    align-items: center!important;
+    width: 100%!important;
+}
+
+.frm_style_estilos-formidable.with_frm_style .frm_primary_label {
+ 
+    font-size: 23px;
+}
+
+.frm_checkbox label{
+  font-size: 15px;
+}
+
+.frm_style_estilos-formidable.with_frm_style .frm_radio label, .frm_style_estilos-formidable.with_frm_style .frm_checkbox label {
+
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+
+[type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: none;
+    font-family: 'Gilroy';
+}
+
+.frm_time_wrap{
+      margin-left: -300%;
+}
+
+.frm_description{
+    margin-left: -300%!important;
+}
+
+.ui-datepicker .ui-widget-header, .ui-datepicker .ui-datepicker-header {
+    background: #7f338b !important;
+}
+
+.ui-datepicker td.ui-datepicker-current-day, .ui-datepicker td .ui-state-hover, .ui-datepicker thead {
+    background: #7f338b !important;
+    color: #ffffff !important;
+}
+
+
+
+.hotel-booking-search {
+  padding: 0 !important;
+}
+
+.hotel-booking-search h3{
+  display: none;
+}
+
+
+#hotel-booking-cart table tr.hb_checkout_item td, #hotel-booking-payment table tr.hb_checkout_item td {
+    text-align: end !important;
+}
+.hotel-booking-search form{
+  display: flex;
+}
+#hotel-booking-cart .hb_remove_cart_item, #hotel-booking-payment .hb_remove_cart_item {
+  color: red;
+}
+#hotel-booking-cart .hb_remove_cart_item:hover, #hotel-booking-payment .hb_remove_cart_item:hover{
+    background: red;
+    color: white;
+    border-radius: 30px;
+}
+.hb-booking-room-details table tr td.hb_search_item_price {
+    color: #f35314 !important;
+    font-weight: 700;
+}
+
+.hotel-booking-search button {
+  background-color: #f3581b;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+.col-2 {
+      max-width: 50%;
+}
+#hb-payment-form p label{
+  display: none;
+}
+input[type=checkbox], input[type=radio]{
+  height: 2rem;
+  width: auto;
+}
+.hotel-booking-search button:hover{
+  transition: .3s;
+  background-color: transparent!important;
+  color: #fff;
+}
+.hb-align-right {
+    text-align: right;
+    align-items: center;
+}
+.hotel-booking-search input{
+  width: 100%;
+}
+.hb-form-field {
+  margin: .7rem;
+  width: -webkit-fill-available;
+}
+.hotel-booking-search button {
+  transition: .3s;
+  padding: .7rem 1.5rem;
+      font-size: 15px;
+  border-radius: .5rem;
+  font-weight: 600;
+  border: 1px solid #f35314;
+  transition: .3s;
+  align-items: center;
+}
+.hotel-booking-search select, .hotel-booking-search textarea {
+  width: 100%!important;
+}
+#hotel-booking-results .hb-search-results>.hb-room .hb-room-name a:hover {
+    color: #f35314;
+}
+
+.rooms .hb_room .media a:before {
+  border-bottom: 150px solid #383630;
+  border-left: 230px solid transparent;
+}
+.rooms .hb_room .summary:hover .media a:before {
+    border-bottom-width: 180px;
+    border-left-width: 260px;
+}
+
+
+
+.hb_room{
+  margin: 8rem;
+}
+.rooms .hb_room .media img {
+  width: 100% !important;
+}
+.hb_room_carousel_container .hb_room{
+  object-fit: cover !important;
+  transition: .5s !important;
+}
+.hb_related_other_room {
+  display: none;
+}
+.hb_room_carousel_container .navigation {
+  display: none;
+}
+.room-home{
+  color: transparent;
+}
+.owl-buttons{
+  display: none;
+}
+.owl-carousel .owl-item {
+  display: inline-table;
+}
+.rooms .hb_room .price {
+  bottom: -1rem !important;
+}
+.hb_room_carousel_container .hb_room_carousel {
+    justify-content: center;
+    display: flex;
+}
+}
+/* booking results */
+#hotel-booking-results form .hb_button.hb_checkout:hover, #hotel-booking-results form button.hb_add_to_cart:hover {
+    background: #fff;
+    color: #fff;
+    border: 1px solid #804d8d;
+    transition: .3s;
+}
+
+#hotel-booking-results form .hb_button.hb_checkout:hover, #hotel-booking-results form button.hb_add_to_cart:hover {
+  background: #fff;
+  color: #383630;
+  border: 1px solid #f35314;
+  transition: .3s;
+}
+.hb_search_room_item_detail_price_close {
+    background: #9759a0 !important;
+    color: #fff !important;
+    text-align: center !important;
+    padding: .7rem 1.5rem !important;
+    font-size: 1rem !important;
+    border-radius: .5rem !important;
+    font-weight: 600 !important;
+    border: 1px solid #7f338b !important;
+    transition: .3s !important;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.hb-booking-room-details table tr td.hb_search_item_price {
+    color: #7f338b !important;
+    font-weight: 700;
+}
+
+#hotel-booking-results form .hb_button.hb_checkout:hover, #hotel-booking-results form button.hb_add_to_cart:hover {
+    background: #fff;
+    color: #fff;
+    border: 1px solid #7f338b;
+    transition: .3s;
+}
+
+.hotel-booking-search form p {
+    margin: 0px!important;
+}
+
+.modal-body .hotel-booking-search form p {
+    margin: 10px 62px 17px!important;
+}
+.hb_package_title label {
+
+    font-size: 2.5rem;
+}
+
+.hb-select-extra-results .hb_button{
+    width: auto !important;
+    color: #fff !important;
+    background: #7f338b !important;
+    padding: -1.3rem 1.5rem !important;
+        font-size: 1.5rem !important;
+    
+    border-radius: .5rem !important;
+    font-weight: 600 !important;
+    border: 1px solid #7f338b !important;
+    transition: .3s !important;
+    /* margin-bottom: 2rem !important; */
+    margin-left: 2rem;
+}
+
+.hb-select-extra-results .hb_package_title label {
+    margin: 0;
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    color: black;
+    font-weight: bold;
+}
+
+.hb-select-extra-results .hb_button:hover {
+    background: #7f338b !important;
+    color: #fcfcfc !important;
+    font-weight: bold!important;
+}
+
+.hb-select-extra-results .hb_button{
+  min-height: 0;
+}
+
+.chechout-container .hb_button {
+    width: auto !important;
+    color: #fff !important;
+    background: #7f338b !important;
+    /* padding: .7rem 1.5rem !important; */
+    font-size: 1.5rem !important;
+    border-radius: .5rem !important;
+    font-weight: 600 !important;
+    border: 1px solid #7f338b !important;
+    transition: .3s !important;
+    /* margin-bottom: 2rem !important; */
+    margin-left: 2rem;
+    min-height: 0;
+}
+
+
+#hotel-booking-cart table.hb_table, #hotel-booking-payment table.hb_table {
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+
+.product-name a{
+  color: black!important;
+      font-size: 15px;
+}
+
+article .entry-content{
+  display: inherit;
+}
+
+.woocommerce #content table.cart td.actions .input-text, .woocommerce table.cart td.actions .input-text, .woocommerce-page #content table.cart td.actions .input-text, .woocommerce-page table.cart td.actions .input-text{
+  width: auto!important;
+      color: black;
+    font-weight: bold;
+}
+
+.col2-set label{
+  color: black!important;
+}
+
+.woocommerce .col2-set .col-1 {
+    width: 100%;
+}
+
+.col-1 {
+    max-width: 100% !important;
+}
+.woocommerce input {
+    padding: .5rem 1rem;
+    border: 2px solid #c2c2c2;
+    border-radius: .5rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+span.select2-results{
+  color: black;
+}
+
+.form-row{
+  display: block;
+}
+/* .woocommerce .col2-set .col-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+} */
+
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    outline: 0;
+    line-height: normal;
+    color: black;
+    font-weight: bold;
+}
+.woocommerce form .form-row {
+    padding: 22px;
+}
+
+li.wc_payment_method.payment_method_paypal label{
+  color: black!important;
+}
+
+li.wc_payment_method.payment_method_bacs label{
+  color: black!important;
+}
+.woocommerce-info {
+    border-top-color: #7f338b;
+    font-size: 20px;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected]{
+      background-color: #7f338b!important;
+    color: black!important;
+    	font-family: 'Gilroy';
+}
+
+.woocommerce-billing-fields h3{
+  font-size: 23px;
+    color: black;
+    font-weight: bold;
+}
+
+.woocommerce-additional-fields{
+  display: none;
+}
+
+#order_review_heading{
+      font-size: 22px;
+    color: black;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.woocommerce-NoticeGroup woocommerce-NoticeGroup-checkout{
+  font-size: 15px;
+}
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+    background-color: #7f338b!important;
+    color: #fff;
+  width: auto;
+    border: none;
+    padding: 20px;
+    font-size: 15px;
+    font-family: 'Gilroy';
+}
+
+address{
+  font-size: 18px;
+    font-family: 'gilroy';
+    color: black;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.woocommerce-order-details__title{
+  font-size: 30px;
+  color: black;
+  padding-top: 50px;
+}
+
+.woocommerce-column__title{
+    font-size: 30px;
+  color: black;
+  padding-top: 50px;
+}
+
+address br{
+  display: inherit;
+}
+
+.style-simple table:not(.recaptchatable) tr:last-child td {
+    border-bottom: 0;
+    font-weight: bold;
+}
+
+.woocommerce ul.order_details li {
+    float: left;
+    margin-right: 2em;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'gilroy';
+    color: black;
+    font-weight: bold;
+}
+
+.woocommerce-order p{
+  font-size: 20px;
+}
+
+.product-price span{
+  color: black;
+}
+
+.entry-content span {
+    color: black;
+    font-size: 20px;
+}
+
+.cart_totals h2{
+	    font-size: 30px;
+	color:black;
+}
+
+.coupon button{
+	float:inherit!important;
+	background-color: #7f338b!important;
+    color: #fff!important;
+    margin-top: 18px!important;
+}
+
+.checkout-page{
+      padding-top: 200px;
+    padding-bottom: 200px;
+}
+.title-section{
+  color: black;
+}
+
+
+.hb-submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.entry-content{
+  margin: 6rem;
+  justify-content: center;
+  display: flex;
+}
+#hotel-booking-results .hb-search-results>.hb-room .hb-room-name {
+    color: #35322e;
+    font-size: 25px;
+    margin-top: 2rem;
+}
+#hotel-booking-results .hb-search-results>.hb-room .hb-room-meta li {
+    margin-bottom: 20px;
+}
+#hotel-booking-results .hb-search-results>.hb-room .hb-room-name a:hover {
+    color: #7f338b;
+}
+.hb_single_room .price {
+  color: #7f338b;
+}
+.hb-booking-room-form-head .description {
+    padding-left: 0rem;
+}
+/* ROOM VIEW*/
+.status-publish a{
+  color: transparent;
+  width: 100%;
+}
+#hb_room_load_booking_form{
+  width: auto !important;
+}
+.hb_single_room .title h4 a {
+  display: inherit;
+  color: #383630 !important;
+}
+.type-hb_room{
+  margin-top: 12rem;
+}
+.clickable {
+  display: none;
+}
+.rooms .hb_room .title h4 a:hover {
+  color: #f3581b;
+  text-decoration: none;
+}
+.rooms .hb_room .title h4 a{
+  font-weight: bold;
+}
+.hb_single_room .hb_single_room_details .hb_single_room_tabs>li a.active:after {
+  background: #f35314;
+}
+.hb_single_room .hb_room_gallery .camera_thumbs .camera_thumbs_cont ul li.cameracurrent:before {
+  border-color: #f35314;
+}
+.hb_button {
+  width: auto !important;
+  color: #fff !important;
+  background: #f35314 !important;
+  padding: .7rem 1.5rem !important;
+  font-size: 1rem !important;
+  border-radius: .5rem !important;
+  font-weight: 600 !important;
+  border: 1px solid #f35314 !important;
+  transition: .3s !important;
+  margin-bottom: 2rem !important;
+  margin-left: 2rem;
+}
+.hb_single_room .hb_room_gallery .camera_thumbs .camera_thumbs_cont ul li{
+  max-height: 8rem;
+}
+.hb_single_room .hb_room_gallery .camera_thumbs .camera_thumbs_cont ul li img{
+  max-height: 8rem;
+}
+
+.hb_button:hover {
+  background: #fff !important;
+  color: #35322e !important;
+}
+.hb_package_title label {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  color: #35322e;
+}
+.hb_package_title{
+  display: contents;
+  padding-left: 6rem;
+}
+.hb_extra_detail_price{
+  padding-left: rem;
+}
+
+.description{
+  padding-left: 6rem;
+}
+.background{
+  margin-top: 12rem;
+  margin-bottom: 5rem;
+}
+.hb_addition_package_extra a.hb_package_toggle:after {
+  content: '';
+}
+#hotel_booking_room_hidden .hb_addition_package_extra input {
+    height: 2rem;
+    min-width: 6rem;
+}
+.hb_optional_quantity_selected{
+  height: 2rem;
+  min-width: 6rem;
+  width: 0;
+  float: left;
+}
+.list-room-extra li{
+  list-style: none;
+  margin-bottom: 4rem;
+  text-align: left;
+
+}
+.hb-select-extra-results {
+  text-align: center;
+}
+#hb-cart-form h3 {
+  display: none
+}
+#hotel-booking-cart .hb_button.hb_checkout {
+  padding: .7rem 1.5rem;
+  font-size: 1rem;
+  border-radius: .5rem;
+  font-weight: 600;
+  border: 1px solid #f35314;
+  transition: .3s;
+  background: #f35314;
+  color: #fff;
+  width: 10rem;
+  text-align: center;
+}
+
+#hotel-booking-results form .hb_button.hb_checkout, #hotel-booking-results form button.hb_add_to_cart, #hotel-booking-results form button[type=submit] {
+    text-decoration: none;
+    padding: 10px 25px;
+    line-height: 20px;
+    border: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: #7f338b!important;
+    color: #fff;
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#hotel-booking-results .hb-search-results>.hb-room .hb-room-thumbnail img {
+    margin-top: 2rem;
+    width: 100%;
+    height: 30vh;
+}
+
+#hotel-booking-results>h3 {
+
+    font-weight: bold;
+}
+.entry-content {
+    margin: 12rem;
+}
+
+.hotel-booking-search form p{
+ align-items: center;
+}
+
+#hotel-booking-results .hb-search-results>.hb-room .hb-room-meta li>label {
+    width: auto;
+    font-weight: bold;
+    color: black;
+}
+
+.icon-service {
+    width: 7rem;
+}
+
+.text-serv{
+
+    min-height: 12rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.icon-serv{
+  margin-left: 10%;
+}
+
+.icon-serv h4{
+    margin-bottom: 0px;
+}
+
+.slick-services .slick-list.draggable{
+      height: 393.937px!important;
+}
+
+form .list-room-extra{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.button.wc-backward {
+    width: auto;
+}
+
+.modal-body img{
+  width: 100%;
+}
+
+.dark{
+  background-color:#000;
+}
+
+.site-main{
+  background: #ffff!important;
+}
+
+@-moz-document url-prefix() {
+    p.hb-submit
+    {
+      display: inline flow-root!important;
+    }
+    .btn-general{
+      width: max-content;
+    }
+
+    .hotel-booking-search button {
+
+    padding: 0;
+    }
+}
+
+.elipse {
+  position: relative;
+}
+
+.elipse img {
+    opacity: 0.3;
+    width: 12rem;
+    position: absolute;
+    animation-name: colombia;
+    animation-duration: 2s;
+    /* or: Xms */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* or: normal */
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    /* or: backwards, both, none */
+    animation-delay: 1s;
+  }
+
+@-webkit-keyframes colombia {
+  0% {
+    opacity: 0.3;
+  }
+
+  100% {
+    opacity: 0.8;
+  }
+}
+
